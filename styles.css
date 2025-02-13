@@ -69,6 +69,8 @@ body {
     font-size: 1.1rem;
     cursor: pointer;
     transition: transform 0.3s, background 0.3s;
+    text-decoration: none; /* Added for link buttons */
+    display: inline-block; /* Added for link buttons */
 }
 
 .cute-btn:hover {
@@ -278,7 +280,6 @@ h2 {
     text-shadow: 2px 2px 4px rgba(255, 71, 87, 0.3);
 }
 
-
 .celebration-text {
     font-size: 3em;
     color: #ff4757;
@@ -315,4 +316,34 @@ h2 {
 .music-btn:hover {
     transform: scale(1.05);
     background: var(--secondary-color);
-} 
+}
+
+/* New YouTube Button Styles */
+.youtube-link-container {
+    margin-top: 30px;
+}
+
+.youtube-btn {
+    background: #ff0000 !important; /* YouTube red */
+    font-size: 1.2em !important;
+    padding: 15px 30px !important;
+    margin-top: 20px;
+    animation: pulse 2s infinite;
+}
+
+.youtube-btn:hover {
+    background: #cc0000 !important;
+    transform: scale(1.1);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
