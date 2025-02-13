@@ -52,7 +52,7 @@ const CONFIG = {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
         message: "Now come get your gift, a big warm hug and a huge kiss!",
         emojis: "🎁💖🤗💝💋❤️💕",  // These will bounce around
-        youtubeLink: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID", // Replace with your YouTube video URL
+        youtubeLink: "https://youtube.com/shorts/0ApUVO-8SMc?feature=shared", // Replace with your YouTube video URL
         youtubeBtnText: "Click for a Special Surprise! 🎵💝" // Text that appears on the button
     },
 
