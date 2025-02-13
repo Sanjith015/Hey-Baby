@@ -184,6 +184,12 @@ function celebrate() {
     document.getElementById('celebrationMessage').textContent = config.celebration.message;
     document.getElementById('celebrationEmojis').textContent = config.celebration.emojis;
     
+    // Set up YouTube button
+    const youtubeLink = document.getElementById('youtubeLink');
+    const youtubeBtnText = document.getElementById('youtubeBtnText');
+    youtubeLink.href = config.celebration.youtubeLink;
+    youtubeBtnText.textContent = config.celebration.youtubeBtnText;
+    
     // Create heart explosion effect
     createHeartExplosion();
 }
